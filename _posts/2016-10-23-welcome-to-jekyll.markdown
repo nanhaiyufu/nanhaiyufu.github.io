@@ -12,10 +12,10 @@ Jekyll also offers powerful support for code snippets:
 
 lets show some code snipts here:
 >public class HelloWorld{
->>public static void main (String args[]){
-  System.out.print("hello world!\n");
-}
-}
+>public static void main (String args[]){
+>  System.out.print("hello world!\n");
+> }
+> }
 {% highlight ruby %}
 def print_hi(name)
   puts "Hi, #{name}"
