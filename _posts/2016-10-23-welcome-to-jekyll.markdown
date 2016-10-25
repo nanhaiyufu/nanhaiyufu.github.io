@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "First post with  Jekyll!"
 date:   2016-10-23 15:50:52 +0000
 categories: jekyll update
 ---
@@ -10,6 +10,12 @@ To add new posts, simply add a file in the `_posts` directory that follows the c
 
 Jekyll also offers powerful support for code snippets:
 
+lets show some code snipts here:
+>public class HelloWorld{
+>>public static void main (String args[]){
+  System.out.print("hello world!\n");
+}
+}
 {% highlight ruby %}
 def print_hi(name)
   puts "Hi, #{name}"
