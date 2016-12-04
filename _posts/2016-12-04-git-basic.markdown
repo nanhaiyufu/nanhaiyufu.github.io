@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Basic Git commands
+title:  "Basic Git commands"
 date:   Sun Dec  4 14:08:57 UTC 2016
 categories: test
 ---
