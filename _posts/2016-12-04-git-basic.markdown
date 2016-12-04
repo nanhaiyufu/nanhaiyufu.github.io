@@ -7,7 +7,7 @@ categories: test
 
 ===Basic Git commands===
 
-`
+```
 git init : create git repository in current folder
 
 git add <file/folder> : add file or files in folder to stage
@@ -67,4 +67,4 @@ git checkout master: switch between branches
 
 git merge master: bring cheanges in master branch into current branch
 
-`
+```
