@@ -1,16 +1,20 @@
 ---
 layout: post
-title:  "Basic Docker run command"
+title:  "Basic Git commands
 date:   Sun Dec  4 14:08:57 UTC 2016
 categories: test
 ---
 
 git init : create git repository in current folder
+
 git add <file/folder> : add file or files in folder to stage
+
 git commit -m "commentABC"  : commit/checkin with comment, the stage status been commited
+
 git status: check status of the repository, it'll advise command to unstage file(for files staged:git add, git reset HEAD <file>); and command s to discard changes made to files not yet staged(git checkout --<file>)
 
 git status: show file in stage and files modified but not staged, file will show twice if it's been modified after been staged(git add)
+
 git log: view the history of the project. 
    git log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short
 --pretty="..." defines the format of the output.
@@ -34,9 +38,13 @@ FILE: .gitconfig
   dump = cat-file -p
 
 git checkout: get previous version in to working dir
+
 git checkout <branch/master/sha1 of a commit>
+
 git tag : tag the commits with names  for future reference.
+
 git tag v1.0
+
 git checkout v1.0^    or git checkout v1.0~1   : means the first ancestor of v1.0
 
 
@@ -51,6 +59,7 @@ git commit --amend -m "comment" : amend an existing commit, fix the file and com
 git mv file.txt folder/file.txt: move file with repository
 
 git checkout -b branchName: create a local brand
+
 git checkout master: switch between branches
 
 git merge master: bring cheanges in master branch into current branch
