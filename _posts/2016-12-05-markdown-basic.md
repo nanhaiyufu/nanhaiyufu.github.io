@@ -6,9 +6,9 @@ categories: jekyll update
 ---
 blockquotes:
 >public static void main (String args[]){
->  System.out.print("hello world!\n");
-> }
-> }
+>System.out.print("hello world!\n");
+>}
+>}
 
 *highlight:
 
@@ -29,14 +29,14 @@ here is a sampel to use code: `<printf>`
 
 
 un-ordered list
-*apple
-*banana
-*pineapple
+* apple
+* banana
+* pineapple
 
 headers:
-#this is h1 tag
-##h2 tag
-###h3 tag
+#this is h1 tag#
+##h2 tag##
+###h3 tag###
 
 *this will be italic*
 _also italic_
@@ -48,3 +48,6 @@ __also bold line__
 >coca
 >orange
 
+- [x] task1 done
+- [ ] task2 wip
+- [ ] task3 not yet started
