@@ -5,6 +5,7 @@ date:   Mon Dec  5 15:56:53 UTC 2016
 categories: jekyll update
 ---
 blockquotes:
+
 >public static void main (String args[]){
 >System.out.print("hello world!\n");
 >}
@@ -34,8 +35,11 @@ un-ordered list
 * pineapple
 
 headers:
+
 #this is h1 tag#
+
 ##h2 tag##
+
 ###h3 tag###
 
 *this will be italic*
@@ -51,3 +55,12 @@ __also bold line__
 - [x] task1 done
 - [ ] task2 wip
 - [ ] task3 not yet started
+
+
+
+tables:
+
+first col  | 2nd col
+-----------|---------
+cell11	   |cess 12
+cell21|cess22
