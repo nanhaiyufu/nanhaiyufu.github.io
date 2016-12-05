@@ -5,7 +5,7 @@ date:   Mon Dec  5 15:56:53 UTC 2016
 categories: jekyll update
 ---
 blockquotes:
-> public static void main (String args[]){
+>public static void main (String args[]){
 >  System.out.print("hello world!\n");
 > }
 > }
@@ -33,4 +33,18 @@ un-ordered list
 *banana
 *pineapple
 
+headers:
+#this is h1 tag
+##h2 tag
+###h3 tag
+
+*this will be italic*
+_also italic_
+
+**Bold line**
+__also bold line__
+
+>coffee
+>coca
+>orange
 
