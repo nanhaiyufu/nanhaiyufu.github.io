@@ -6,8 +6,11 @@ categories: jekyll update
 ---
 
 
-this is H1
+H1
 =
+
+H1
+==
 
 this is H2
 -
