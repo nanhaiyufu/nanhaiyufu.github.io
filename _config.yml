@@ -24,6 +24,6 @@ github_username:  nanhaiyufu
 
 # Build settings
 markdown: kramdown
-theme: minima
+theme: jekyll-theme-tactile
 
 repository: "nanhaiyufu/nanhaiyufu.github.io"
